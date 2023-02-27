@@ -9,7 +9,7 @@ class Student:
 
 class ChattyStudent(Student):
 
-    # inherit hello() from superclass and add customise it
+    # inherit hello() from superclass and customise it
     def hello(self):
         super().hello()
         '''says a brief greeting, then tries to spoil a TV show.'''
